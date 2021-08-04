@@ -1,0 +1,358 @@
+html,
+.container,
+#app,
+#app > div {
+  height: 100vh;
+  min-height: 100vh;
+  background-color: lightgray;
+  padding: 10px 40px;
+  margin: 2px 50px;
+}
+
+.body {
+  background-image: url("https://www.shrmpro.com/wp-content/uploads/2019/05/Attendance-Management-background.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  min-height: 84.6vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  text-align: center;
+  margin-right: 260px
+}
+
+.first-line {
+  display: flex;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: 84.6vh;
+  position: relative;
+}
+
+.back-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.session-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.add-color {
+  background-color: rgb(207, 199, 127);
+  font-size: 30px;
+}
+
+.back-to {
+  display: flex;
+  flex-wrap: wrap;
+  padding:20px;
+  margin-left: 185px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border: 1px solid black;
+}
+.ukFormat {
+    color: blue;
+    transform: rotate(-5deg);
+    position: relative;
+    display: inline-block;
+}
+.list-style {
+  background-color: rgb(247, 242, 244);
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: 0.2px solid rgb(238, 53, 53);
+}
+
+.list-style-attend {
+  background-color: rgb(247, 242, 244);
+  width: 250px;
+  height: 30px;
+  padding: 10px;
+  border: 0.2px solid rgb(238, 53, 53);
+}
+
+.list-table-attend {
+  width: 250px;
+  background-color: rgb(82, 50, 71);
+  color: white
+}
+
+.list-table-head {
+  width: 300px;
+  background-color: rgb(82, 50, 71);
+  color: white
+}
+
+.status-column {
+  width: 100px;
+  background-color: rgb(82, 50, 71);
+  color: white
+}
+
+.status-column-arrow {
+  width: 100px;
+  background-color: rgb(247, 242, 244);
+  border: 0.2px solid rgb(238, 53, 53);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-mentor {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 84.6vh;
+}
+
+.mentor-button {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin: 15px;
+  border: none;
+  height: 40px;
+  width: auto
+}
+
+.button-back {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  height: 28px;
+  width: 50px;
+}
+
+.App-logo {
+  height: 5vmin;
+  width: 200px;
+  height: 100%;
+  margin: 25px
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button {
+  background-color: red;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+  border: none;
+  width: 80px;
+  height: 36px;
+}
+
+.nav {
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px
+}
+
+.email {
+  margin: 10px;
+}
+
+.Space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  font-size: 18px;
+}
+
+select {
+  width: 220px;
+}
+
+.Star {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 24px;
+}
+
+.Star-clicked {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.Star-logout {
+  background-color: crimson;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 12px;
+  font-size: 12px;
+}
+
+.select-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  font-size: 18px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-top: 2px solid #6c757d;
+}
+
+.welcome-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.textColor-mentor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
+  color: rgb(121, 145, 224)
+}
+
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
+  color:rgb(201, 76, 76)
+}
+
+.select-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_link-item:hover {
+  color: rgb(226, 136, 136);
+  opacity: 0.7;
+}
+
+.footer_link-fb {
+  background: #3B5998;
+  color: white;
+  border-radius: .9rem;
+}
+
+.footer_link-insta {
+  background: #55ACEE;
+  color: white;
+  border-radius: .9rem;
+}
+
+.footer_link-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: .9rem;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.footer_items {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 1.8rem;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px
+}
+
+.footer_item {
+  border: 0rem solid #14368b;
+  border-radius: 50%;
+  margin: 0.8rem;
+  display: flex;
+}
